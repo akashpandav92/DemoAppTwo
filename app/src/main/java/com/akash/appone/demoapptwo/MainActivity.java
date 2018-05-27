@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //set layout
         setContentView(R.layout.activity_main);
         ed_text= (EditText) findViewById(R.id.et_text);
       tvTextOne= (TextView) findViewById(R.id.tvtextone);
